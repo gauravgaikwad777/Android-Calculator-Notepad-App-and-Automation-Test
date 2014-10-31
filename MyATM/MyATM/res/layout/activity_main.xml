@@ -1,0 +1,85 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <EditText
+        android:id="@+id/accNbrTF"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Account Number"
+        android:inputType="number" >
+
+        <requestFocus />
+    </EditText>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:id="@+id/getAcctB"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Get" />
+
+        <Button
+            android:id="@+id/openAcctB"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Open" />
+
+        <Button
+            android:id="@+id/closeAcctB"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Close" />
+
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/acctBalanceTF"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Account Balance"
+        android:inputType="none|numberDecimal" />
+
+    <EditText
+        android:id="@+id/acctStatusTF"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Account Status"
+        android:inputType="none" />
+
+    <EditText
+        android:id="@+id/transactionAmtTF"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Transaction Amount"
+        android:inputType="numberDecimal" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:id="@+id/depositB"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Deposit" />
+
+        <Button
+            android:id="@+id/withdrawalB"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Withdrawal" />
+
+    </LinearLayout>
+
+</LinearLayout>
